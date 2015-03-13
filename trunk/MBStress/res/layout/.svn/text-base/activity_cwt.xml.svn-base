@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/l1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Instruction: Drag and Drop the Green object over the Red object"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TableLayout
+        android:id="@+id/TableLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:stretchColumns="1" >
+
+        <TableRow android:layout_width="fill_parent" 
+            android:layout_height="fill_parent"
+            android:layout_weight="0.3"
+            >
+
+            <Button
+                android:id="@+id/UpperLeft"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_gravity="left|top" />
+
+            <Button
+                android:id="@+id/UpperRight"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_gravity="right|top" />
+        </TableRow>
+
+        <TableRow android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.3" 
+            >
+
+            <Space
+                android:layout_width="0dip"
+                android:layout_height="65dp"
+                android:layout_weight="0.4" />
+
+            <Button
+                android:id="@+id/Word"
+                android:layout_width="0dip"
+                android:layout_height="65dp"
+                android:layout_gravity="center_vertical|center_horizontal"></Button>
+
+            <Space
+                android:layout_width="0dip"
+                android:layout_height="65dp"
+                android:layout_weight="0.4" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" 
+            android:layout_weight="0.3">
+            
+
+            <Button
+                android:id="@+id/LowerLeft"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_gravity="left|bottom" />
+
+            <Button
+                android:id="@+id/LowerRight"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_gravity="right|bottom" />
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

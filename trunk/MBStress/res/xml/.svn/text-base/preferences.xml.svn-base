@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+                android:title="">
+                android:title="Debug Mode Settings">
+       <PreferenceScreen
+                android:key="activitydebugsettings"
+                android:title="Activity Debug Settings"
+                android:summary="Activity Debug settings"
+                >
+          <CheckBoxPreference
+               android:title="Stroop Debug"
+               android:defaultValue="false"
+               android:summary="This preference can be true or false"
+               android:key="stroopdebug" />
+         <CheckBoxPreference
+               android:title="Text Entry"
+               android:defaultValue="false"
+               android:summary="This preference can be true or false"
+               android:key="tedebug" />
+        </PreferenceScreen>
+ 
+      
+        <PreferenceScreen
+                android:key="activitysettings"
+                android:title="Activity Settings"
+                android:summary="Activity settings">
+         <EditTextPreference
+                android:name="Drag and Drop"
+                android:defaultValue="4"
+                android:title="Number of reps "
+                android:key="stroopReps" />
+          <EditTextPreference
+                android:name="Text Entry"
+                android:defaultValue="4"
+                android:title="Number of reps "
+                android:key="textentryReps" />
+        </PreferenceScreen>
+ 
+</PreferenceScreen>

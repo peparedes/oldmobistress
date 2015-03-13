@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preference-headers
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <header android:fragment="com.example.mbstress.Preferences$Prefs1Fragment"
+            android:icon="@drawable/ic_menu_settings_holo_light"
+            android:title="Debug Settings"
+            android:summary="Enable Activity Debug settings" />
+
+    <header android:fragment="com.example.mbstress.Preferences$Prefs2Fragment"
+            android:icon="@drawable/ic_menu_settings_holo_light"       
+            android:title="Task Settings"
+            android:summary="Change Task Specific Settings">
+    </header>
+</preference-headers>

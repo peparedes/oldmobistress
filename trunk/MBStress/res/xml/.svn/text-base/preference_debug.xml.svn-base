@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+                android:key="activitydebugsettings"
+                android:title="Activity Debug Settings"
+                android:summary="Activity Debug settings"
+                >
+     	 <CheckBoxPreference
+               android:title="Stroop"
+               android:defaultValue="false"
+			   android:icon="@drawable/ic_menu_settings_holo_light"
+               android:key="stroopdebug" />
+         <CheckBoxPreference
+               android:title="Text Entry"
+               android:defaultValue="false"
+				android:icon="@drawable/ic_menu_settings_holo_light"
+               android:key="tedebug" />
+</PreferenceScreen>

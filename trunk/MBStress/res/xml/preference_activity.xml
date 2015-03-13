@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" 
+                android:key="activitysettings"
+                android:title="Activity Settings"
+                android:summary="Activity settings">
+         <EditTextPreference
+                android:name="StroopReps"
+                android:defaultValue="4"
+           		android:icon="@drawable/ic_menu_settings_holo_light"                
+                android:title="Stroop rps "
+                android:key="stroopReps" />
+          <EditTextPreference
+                android:name="Text Entry"
+                android:defaultValue="4"
+                android:icon="@drawable/ic_menu_settings_holo_light"
+                android:title="Text Entry reps"
+                android:key="textentryReps" />
+</PreferenceScreen>

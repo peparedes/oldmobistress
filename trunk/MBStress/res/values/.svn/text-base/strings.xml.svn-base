@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MobiTasks 0.1</string>
+    <string name="menu_settings">Settings</string>
+
+    <string-array name="example_sentences">
+        <item>How are you today</item>
+        <item>Can we meet after lunch</item>
+        <item>To be or not to be</item>
+        <item>Another day in paradise</item>
+        <item>When is it a good time to catch up</item>
+		<item>Please make sure this is done today</item>
+		<item>I`m catching an early Wed flight</item>
+		<item>The sun is shining and the birds are singing</item>
+		<item>Perfect, HMU! Send that link when you can</item>
+		<item>idk, wut do u think we should do</item>
+		<item>idc let`s do wuteva has no lineup</item>
+		<item>BTAIM, there will always be people who abuse any policy</item>
+		<item>NTIM, but this country is built on debt</item>
+		<item>Sry, I really need to get some sleep.</item>
+		<item>IIRC, you can`t submit your taxes online </item>
+		<item>IMHO, you should the smaller car in silver instead of red</item>
+    </string-array>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_enter_text">EnterText</string>
+    <string name="wait_message">Saving progress... please wait patiently</string>
+    <string-array name="task_instructions">
+    <item>&lt;p>&lt;b>Task1&lt;/b>&lt;p/> Match the ink color of the text in the center of the screen to the color-word in one of the corners.</item>
+    <item></item>  
+	<item>&lt;p>&lt;b>Task2&lt;/b>&lt;p/> &lt;p>Don`t proceed. Ask for the researcher &lt;/p> &lt;p>Enter the text shown as &lt;i>quickly&lt;/i> and as &lt;i>accurately&lt;/i> as possible. Click next when done. &lt;/p></item>
+	<item></item>  
+	<item>Stop. Ask for the researcher! :)</item>
+	<item>&lt;p>&lt;b>Task3&lt;/b>&lt;p/> Match the ink color of the text in the center of the screen to the color-word in one of the corners. &lt;/p>For example, if the center text is &lt;font color="blue">RED&lt;/font>, you should drag and drop it on the word BLUE.&lt;/p> &lt;p>You will be timed. For each correct match, you earn &lt;font color="green">$0.50&lt;/font>. For each incorrect match you loose &lt;font color="red">$0.50&lt;/font>&lt;/p> </item>
+	<item></item>
+	<item>&lt;p>&lt;b>Task4&lt;/b>&lt;p/>  &lt;p>Don`t proceed. Ask for the researcher &lt;/p> &lt;p>Enter the text shown as &lt;i>quickly&lt;/i> and as &lt;i>accurately&lt;/i> as possible. &lt;p>You will be timed.&lt;/p>&lt;p>For correct text (up to 5 errors) you earn &lt;font color="green">$0.5&lt;/font>. For incorrect text you loose &lt;font color="red">$0.5&lt;/font>&lt;/p></item>
+	<item></item>
+	<item>Finished. Ask for the researcher! :)</item>
+	</string-array>
+	
+    <string-array name="reverse_task_instructions">
+	<item>&lt;p>Task&lt;p/> Match the ink color of the text in the center of the screen to the color-word in one of the corner boxes. &lt;p>For example, if the center text is &lt;font color="blue">RED&lt;/font>, you should drag and drop it on the word BLUE&lt;/p></item>
+	<item></item>  
+	<item>&lt;p>Task&lt;p/> &lt;p>Enter the text shown as quickly and as accurately as possible. Click next when done. &lt;p/></item>
+	<item>Stop. Ask for the researcher! :)</item>  
+	<item>&lt;p>Task&lt;p/> Match the ink color of the text in the center of the screen to the color-word in one of the corner boxes.</item>
+	<item></item>  
+	<item>&lt;p>Task&lt;p/> &lt;p>Enter the text shown as quickly and as accurately as possible. You will be timed.&lt;p/></item>
+	<item></item>
+	<item>Finished. Ask for the researcher! :)</item>
+	</string-array>
+                
+</resources>

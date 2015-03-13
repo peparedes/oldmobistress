@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/topview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp">
+    
+<RelativeLayout android:id="@+id/headerSection"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="1dp"
+    android:paddingRight="1dp">
+	
+	<LinearLayout
+	   android:id="@+id/timeLeftContainer"
+	   android:layout_alignParentLeft="true"
+	   android:layout_width="wrap_content"
+	   android:layout_height="wrap_content"
+	   android:orientation="vertical"
+	   android:visibility="gone">
+       <TextView
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="left"
+	    android:typeface="monospace"
+	    android:textColor="#4871A8"
+        android:textStyle="bold"
+	    android:text="Time Left:"
+	    android:textSize="20sp" />
+	    <TextView
+	    android:id="@+id/timeLeft"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="left"
+	    android:typeface="monospace"
+	    android:textSize="20sp" />
+	</LinearLayout>
+	
+	 <LinearLayout
+	     android:id="@+id/scoreContainer"
+	   android:layout_alignParentRight="true"
+	   android:layout_width="wrap_content"
+	   android:layout_height="wrap_content"
+	   android:orientation="vertical"
+	   android:visibility="gone">
+	     <TextView
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="left"
+	    android:typeface="monospace"
+	    android:textColor="#4871A8"
+        android:textStyle="bold"
+	    android:text="Bonus:"
+	    android:textSize="20sp" />
+	    <TextView
+	    android:id="@+id/score"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="left"
+	    android:typeface="monospace"
+	    android:textSize="20sp" />
+	</LinearLayout>
+ 
+ </RelativeLayout>
+ 
+  <TableLayout
+            android:id="@+id/debugView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*" 
+            android:visibility="gone">
+	        <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="X-Axis"
+                    android:textSize="14sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Y-Axis"
+                    android:textSize="14sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Z-Axis"
+                    android:textSize="14sp" />
+                <TextView
+                    android:id="@+id/Counts"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Counts" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:id="@+id/x_axis"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center" 
+                    android:textSize="14sp" />
+                <TextView
+                    android:id="@+id/y_axis"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="14sp"  />
+                <TextView
+                    android:id="@+id/z_axis"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="14sp"  />
+                <TextView
+                    android:id="@+id/events"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+					android:textSize="14sp" />
+            </TableRow>
+        </TableLayout>
+        
+  
+            
+</LinearLayout>
